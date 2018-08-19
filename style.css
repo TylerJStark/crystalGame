@@ -1,0 +1,49 @@
+@font-face {
+    font-family: CrystalText;
+    src: url(Images/Merkur.otf);
+}
+
+.crystal {
+    height: 150px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rest {
+    text-align: center;
+    font-size: 25px;
+    font-family: CrystalText;
+}
+
+.win {
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    font-family: CrystalText;
+}
+
+.loss {
+    text-align: center;
+    font-size: 25px;
+    float: right;
+    font-family: CrystalText;
+}
+
+.title {
+    font-family: CrystalText;
+    text-align: center;
+    font-size: 90px;
+    color: grey;
+    position: relative;
+    padding: 5px;
+}
+
+#cart {
+    float: left;
+    height: 100px;
+    width: 125px;
+    position: absolute;
+}
+

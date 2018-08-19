@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Crystal Game</title>
+
+    <!-- Linking to bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!-- Linking to CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+    <body>
+
+        <div class="container">
+
+            <img id="cart" src="Images/minecart.jpeg" alt="Minecart">
+
+            <p class="title">Crystal Clicker</p>
+            <p class="text-center">Click on the crystals below. Each one adds a different number. Win by matching the random number to your score.</p>
+            
+            <!-- Clickable images -->
+            <div class="row">
+                <img class="crystal" src="Images/crystalBlue.png" onclick="blueFunction()">
+                <img class="crystal" src="Images/crystalGreen.png" onclick="greenFunction()">
+                <img class="crystal" src="Images/crystalRed.jpeg" onclick="redFunction()">
+                <img class="crystal" src="Images/crystalWhite.jpg" onclick="whiteFunction()">
+            </div>
+
+            <!-- Divs to send JS variables to -->
+            <p class="rest">Your Score: <span id="score"></span></p>
+            <p class="rest">Score to get: <span id="rndNum"></span></p>
+            <div class='parent'>
+                <p class="win">Win: <span id="win"></span></p>
+                <p class="loss">Lose: <span id="loss"></span></p>
+            </div>
+        </div>
+
+    </body>
+
+    <!-- Linking to JS -->
+    <script src="js.js"></script>
+
+</html>
